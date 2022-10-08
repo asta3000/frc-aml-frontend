@@ -1,0 +1,82 @@
+.formP {
+    font-size: 0.9rem;
+    margin-right: 1rem;
+}
+
+.formP .formSelect,
+.formP .formInput {
+    margin-left: 1rem;
+    padding: 0.4rem;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.formP .formInput {
+    width: 25rem;
+}
+
+.tableList {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    border-collapse: collapse;
+}
+
+.tableList .headrow {
+    height: 2rem;
+    background: #ddd;
+}
+
+.tableList .bodyrow {
+    height: 2.5rem;
+    background: #fff;
+}
+
+.tableList .bodyrow:hover {
+    background: #eee;
+}
+
+.tableList .bodyrow .buttonView {
+    padding: 0.3rem 0.7rem;
+    color: white;
+    background: green;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-right: 0.7rem;
+}
+
+.tableList .bodyrow .buttonView:hover{
+    background: darkgreen;
+}
+
+.buttonApprove {
+    padding: 0.3rem 0.7rem;
+    margin-left: 1rem;
+    color: white;
+    background: blue;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.tableList .bodyrow .buttonApprove:hover {
+    background: darkblue;
+}
+
+.assess {
+    border-radius: 5px;
+    color: #fff;
+    padding: 0.15rem 0.3rem;
+}
+
+.buttonApproved {
+    padding: 0.5rem 1.5rem;
+    color: 000;
+    background: #ddd;
+    border-radius: 1rem;
+}
+
+.tableStatistic {
+    margin: 1rem 0;
+    font-size: 0.8rem;
+}

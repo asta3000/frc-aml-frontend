@@ -1,0 +1,218 @@
+.container {
+    width: 100%;
+    padding: 1rem;
+}
+
+.heading {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #999;
+    padding-bottom: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading .header {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.heading .duration {
+    font-size: 0.9rem;
+    margin-right: 2rem;
+}
+
+.heading input {
+    border: 1px solid gray;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+.noDuration {
+    font-size: 0.85rem;
+    color: red;
+}
+
+.backbtn {
+    padding: 0.5rem 1.5rem;
+    background: red;
+    border-radius: 1rem;
+    color: white;
+    font-size: 0.8rem;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+
+.backbtn:hover {
+    background: darkred;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.dashboard .firstRow,
+.dashboard .secondRow {
+    display: flex;
+    gap: 2rem;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.dashboard .firstRow .firstColumn {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.dashboard .firstRow .firstColumn .allOrgs,
+.dashboard .firstRow .firstColumn .activeOrgs,
+.dashboard .firstRow .firstColumn .assessOrgs {
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    font-size: 0.85rem;
+}
+
+.dashboard .firstRow .firstColumn .allOrgs {
+    background-color: rgba(255, 99, 132, 0.7);
+}
+
+.dashboard .firstRow .firstColumn .activeOrgs {
+    background-color: rgba(54, 162, 235, 0.7);
+}
+
+.dashboard .firstRow .firstColumn .assessOrgs {
+    background-color: rgba(153, 102, 255, 0.7);
+}
+
+.dashboard .firstRow .chart1 {
+    width: 60%;
+}
+
+.dashboard .firstRow .chart2 {
+    width: 30%;
+}
+
+.dashboard .firstRow .chart2 div {
+    margin: 1.5rem 0;
+    height: 75%;
+}
+
+.dashboard .secondRow {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.dashboard .secondRow .firstColumn {
+    width: 71%;
+}
+
+.dashboard .firstRow .chart2 p,
+.dashboard .secondRow .firstColumn p,
+.dashboard .secondRow .secondColumn p {
+    margin-bottom: 0.7rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: darkblue;
+}
+
+.dashboard .secondRow .table1 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.8rem;
+    text-align: center;
+    border: rgba(75, 192, 192, 0.5);
+}
+
+.dashboard .secondRow .table1 thead {
+    height: 3rem;
+    background: rgba(75, 192, 192, 0.85);
+    color: white;
+}
+
+.dashboard .secondRow .table1 tbody tr,
+.dashboard .secondRow .table2 tbody tr {
+    height: 2rem;
+}
+
+/* .dashboard .secondRow .table1 thead tr:nth-child(even) {
+    background: rgba(75, 192, 192, 0.25);
+} */
+
+.dashboard .secondRow .secondColumn {
+    width: 29%;
+}
+
+.dashboard .secondRow .secondColumn .table2 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.8rem;
+    text-align: center;
+    border-spacing: 5px;
+}
+
+.dashboard .secondRow .table2 thead {
+    height: 3rem;
+    background: #ccc;
+    color: black;
+    border-color: white;
+    font-weight: 500;
+}
+
+.dashboard .secondRow .table2 tbody {
+    height: 2rem;
+    color: black;
+    border: none;
+}
+
+.number {
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.chartError {
+    border: none;
+    display: block;
+    text-align: center;
+    color: red;
+    font-size: 0.8rem;
+    padding: 1rem;
+}
+
+.link {
+    cursor: pointer;
+    color: darkslategray;
+}
+
+.link:hover {
+    color: blue;
+}
+
+.downloadXLS, .downloadPDF {
+    padding: 0.5rem 1rem;
+    background: gray;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 1rem; 
+    color: white;
+    cursor: pointer;
+}
+
+.downloadXLS:hover {
+    background: green;
+}
+
+.downloadPDF:hover {
+    background: red;
+}

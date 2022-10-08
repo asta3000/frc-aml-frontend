@@ -1,0 +1,10 @@
+.search {
+    padding: 0.2rem;
+    width: 35%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    font-size: 0.8rem;
+    border: none;
+    border-bottom: 1px gray solid;
+}

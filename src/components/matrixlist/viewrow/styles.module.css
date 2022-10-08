@@ -1,0 +1,23 @@
+.tabledata {
+    height: 1.8rem;
+}
+
+.button {
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+    color: white;
+    border-radius: 0.2rem;
+    margin: 0.3rem auto;
+  }
+
+  .editButton {
+    background: green;
+  }
+  
+  .editButton:hover {
+    background: darkgreen;
+  }
+
+  .action {
+    min-width: 100px;
+  }

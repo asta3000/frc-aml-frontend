@@ -1,0 +1,59 @@
+.qContainer .organization {
+    font-size: 1rem;
+    margin: 1.5rem 0 1.5rem 0;
+    padding-top: 0.5rem;
+    border-top: 1px solid #333
+}
+
+.qContainer .error {
+      color: red;
+      font-size: 0.8rem;
+      font-style: italic;
+      margin-top: 2rem;
+}
+
+.qContainer .questions {
+    margin: 1.5rem 0 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.qContainer .nextprev {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2.5rem 0;
+}
+
+.qContainer .nextprev div,
+.qContainer .nextprev input {
+    background: #999;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.qContainer .nextprev div:hover,
+.qContainer .nextprev input:hover {
+    background: #777;
+    color: white;
+}
+
+.qContainer .inputText {
+    width: 100%;
+    padding: 0.5rem;
+    border: #999 1px solid;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.qContainer .inputRadio {
+    margin: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.mandatory {
+    margin-left: 0.3rem;
+    color: red;
+}

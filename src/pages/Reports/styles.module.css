@@ -1,0 +1,36 @@
+.title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+  }
+
+  .reportlink {
+    margin-left: 2rem;
+    cursor: pointer;
+    transition: margin 0.4s ease-in-out;
+    font-size: 0.8rem;
+  }
+
+  .reportlink:hover {
+      margin-left: 3rem;
+      color: darkblue;
+  }
+
+  .backbtn {
+    padding: 0.5rem 1.5rem;
+    background: red;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+
+  .backbtn:hover {
+    background: darkred;
+  }
+
+  .report {
+    display: block;
+    margin-bottom: 2rem;
+  }

@@ -1,0 +1,40 @@
+.tabledata {
+  height: 1.5rem;
+  text-align: center;
+}
+
+.tabledata input,
+.tabledata select {
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.2rem;
+  border: 1px solid #666
+}
+
+.saveBtn {
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  color: white;
+  border-radius: 0.2rem;
+  margin: 0.3rem auto;
+  background: green;
+  border: none;
+}
+
+.saveBtn:hover {
+  color: darkgreen;
+}
+
+.cancelBtn {
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  color: white;
+  border-radius: 0.2rem;
+  margin: 0.3rem auto;
+  background: red;
+  margin-left: 0.3rem;
+  border: none;
+}
+
+.cancelBtn:hover {
+  background: darkred;
+}

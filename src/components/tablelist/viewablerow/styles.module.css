@@ -1,0 +1,48 @@
+.tabledata {
+  height: 2rem;
+  text-align: center;
+}
+
+.button {
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  color: white;
+  border-radius: 0.2rem;
+  margin: 0.3rem auto;
+}
+
+.editButton {
+  background: green;
+}
+
+.editButton:hover {
+  background: darkgreen;
+}
+
+.passButton {
+  background: red;
+}
+
+.passButton:hover {
+  background: darkred;
+}
+
+.permButton {
+  background: blue;
+}
+
+.permButton:hover {
+  background: darkblue;
+}
+
+.downloadLink {
+  cursor: pointer;
+}
+
+.downloadLink:hover {
+  text-decoration: underline;
+}
+
+.action {
+  min-width: 200px;
+}

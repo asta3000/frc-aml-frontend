@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.container .label {
+  margin: 0.5rem 0;
+  font-size: 0.8rem;
+}
+
+.container input,
+.container select {
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0.3rem;
+  border: 0;
+  border-bottom: #aaa 1px solid;
+}
+
+.container .memo {
+  font-size: 0.8rem;
+  padding: 0.3rem 0 0.5rem 0;
+  font-style: italic;
+  color: red;
+}

@@ -1,0 +1,25 @@
+.menu {
+    padding: 3rem;
+    font-weight: 200;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+
+.menu .container {
+    padding: 2rem;
+}
+
+.menu .container .menu_list {
+    display: block;
+    color: black;
+    font-weight: normal;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    transition: all 0.3s ease-out;
+}
+
+.menu .container .menu_list:hover {
+    color: blue;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}

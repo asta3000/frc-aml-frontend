@@ -1,0 +1,38 @@
+.tableData {
+  height: 1.5rem;
+  text-align: center;
+}
+
+.tableData .data {
+  padding: 0.3rem;
+}
+
+.tableData .button {
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  color: white;
+  border-radius: 0.2rem;
+  margin: 0.5rem 0.2rem;
+}
+
+.tableData .collapseButton {
+  background: orange;
+  color: black;
+}
+
+.tableData .collapseButton:hover {
+  background: darkorange;
+  color: white;
+}
+
+.tableData .editButton {
+  background: green;
+}
+
+.tableData .editButton:hover {
+  background: darkgreen;
+}
+
+.action {
+  min-width: 200px;
+}

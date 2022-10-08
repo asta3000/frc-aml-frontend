@@ -1,0 +1,30 @@
+.title {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.data {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.v_day0 {
+    color: red;
+  }
+  
+  .v_day1 {
+    color: blue;
+  }
+  
+  .v_day2 {
+    color: black;
+  }
+
+.download {
+  color: blue;
+  cursor:pointer;
+}
+
+.download:hover {
+  color: darkblue;
+}

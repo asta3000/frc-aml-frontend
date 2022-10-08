@@ -1,0 +1,110 @@
+.background {
+    position: fixed;
+    left: 5%;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+
+  .background .container {
+    width: 70%;
+    height: 80%;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: #999 5px 5px 10px;
+    border: #ccc 1px solid;
+    position: relative;
+  }
+  
+.background .container .title {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 1.5rem;
+  }
+  
+  .background .container .body {
+    height: 80%;
+    padding-right: 2rem;
+    overflow-y: auto;
+  }
+  
+  .background .container .buttons {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+  }
+
+  .background .container .buttons .closeBtn {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 7rem;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  
+  .background .container .buttons .closeBtn {
+    border: #0083b0 1px solid;
+    color: #000;
+  }
+  
+  .background .container .buttons .closeBtn:hover {
+    font-weight: bold;
+  }
+
+.norecord {
+  text-align: center;
+  margin-top: 3rem;
+  color: black;
+  font-size: 0.8rem;
+}
+  
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.85rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.table thead tr {
+  height: 2.5rem;
+  background: #ccc;
+}
+
+.table thead td {
+  text-align: center;
+}
+
+.table tbody tr {
+  height: 1.7rem;
+}
+
+.table tbody tr:nth-child(even) {
+  background: #eee;
+}
+
+.table tbody tr td {
+  text-align: center;
+}
+
+.table tbody tr .download {
+  cursor: pointer;
+  color: blue;
+}
+
+.approved {
+  color: green;
+  font-weight: 700;
+}
+
+.nothing {
+  color: red;
+  font-weight: 700;
+}

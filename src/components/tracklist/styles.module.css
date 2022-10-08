@@ -1,0 +1,98 @@
+.tablelist {
+  font-size: 0.8rem;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.tablelist .tablemetadata {
+    height: 2rem;
+    background: #eee;
+  }
+
+.tablelist .tabledata {
+  height: 2rem;
+}
+
+.tablelist .viewbtn,
+.tablelist .editbtn,
+.tablelist .verifybtn {
+  padding: 0.2rem 0.5rem;
+  background-color: red;
+  border-radius: 1rem;
+  color: white;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.tablelist .viewbtn {
+  background-color: green;
+}
+
+.tablelist .editbtn {
+  background-color: blue;
+}
+
+.tablelist .verifybtn {
+  background-color: red;
+}
+
+.tablelist .viewbtn:hover {
+  background-color: darkgreen;
+}
+
+.tablelist .editbtn:hover {
+  background-color: darkblue;
+}
+
+.tablelist .verifybtn:hover {
+  background-color: darkred;
+}
+
+.search_and_add {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.v_day0 {
+  color: red;
+}
+
+.v_day1 {
+  color: blue;
+}
+
+.v_day2 {
+  color: black;
+}
+
+.action {
+  min-width: 200px;
+}
+
+.footer {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.footer strong {
+  margin-left: 2rem;
+}
+
+.footer select,
+.footer input[type=number] {
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  width: 4rem;
+}
+
+.footer input[type=submit] {
+  background-color: transparent;
+  margin-left: 0.5rem;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  width: 2rem;
+  cursor: pointer;
+}

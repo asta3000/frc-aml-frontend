@@ -1,0 +1,78 @@
+.title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 5rem;
+    border-bottom: 1px solid #999;
+    padding-bottom: 0.8rem;
+}
+
+.table {
+    font-size: 0.8rem;
+    border-collapse: collapse;
+    border: 1px solid #29b6f6;
+}
+
+.table thead tr {
+    height: 3rem;
+    background-color: #29b6f6;
+    color: white;
+    border: 1px solid white
+}
+
+.table tbody tr {
+    height: 2rem;
+}
+
+.table .tableData td {
+    padding: 0.3rem;
+}
+
+.downloadXLS, .downloadPDF {
+    padding: 0.5rem 1rem;
+    background: gray;
+    border-radius: 1rem;
+    border: none;
+    margin: 0 0.5rem 1rem 0.5rem; 
+    color: white;
+    cursor: pointer;
+}
+
+.downloadXLS:hover {
+    background: green;
+}
+
+.downloadPDF:hover {
+    background: red;
+}
+
+.downloadLink {
+    cursor: pointer;
+    color: darkblue;
+}
+
+.searchInput {
+    border: 1px solid gray;
+    width: 30rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+}
+
+.backbtn {
+    padding: 0.5rem 1.5rem;
+    background: red;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+
+  .backbtn:hover {
+    background: darkred;
+  }
+
+  .footer {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }

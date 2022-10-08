@@ -1,0 +1,110 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 17%;
+    min-width: 17%;
+    background: #00B4DB;
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    z-index: 11;
+}
+
+.sidebar .logo_details {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.sidebar .logo_details .logo_name {
+    margin: auto;
+    height: 3rem;
+    color: white;
+}
+
+.sidebar .nav_links {
+    height: 100%;
+    padding-top: 2rem;
+}
+
+.sidebar .nav_links li {
+    position: relative;
+    list-style: none;
+}
+
+.sidebar .nav_links li div {
+    cursor: pointer;
+}
+
+.sidebar .nav_links li .link_name {
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    height: 3rem;
+    min-width: 4.5rem;
+    line-height: 3rem;
+    margin-left: 3rem;
+    transition: 0.3s all ease-out;
+}
+
+.sidebar .nav_links li .link_name:hover {
+    margin-left: 4rem;
+    color: yellow;
+}
+
+.sidebar .profile_details {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0.5rem;
+    color: white;
+    width: calc(17% - 2rem);
+    min-width: calc(17% - 2rem);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 1rem 1rem;
+    padding: 1rem;
+}
+
+.sidebar .profile_details .profile_name {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0 0 0.5rem 0;
+}
+
+.sidebar .profile_details .profile_info {
+    margin: 0.5rem 0;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+.sidebar .profile_details .divider {
+    background-color: white;
+    height: 1px;
+    width: 100%;
+    min-width: 100%;
+}
+
+.sidebar .profile_details .profile_action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidebar .profile_details .profile_action .action {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.sidebar .profile_details .profile_action .action:hover {
+    color: yellow;
+}

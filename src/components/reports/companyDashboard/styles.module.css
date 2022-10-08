@@ -1,0 +1,192 @@
+.container {
+    width: 100%;
+    padding: 1rem;
+}
+
+.noOrganization {
+    font-size: 0.85rem;
+    color: red;
+}
+
+.download {
+    color: darkblue;
+    cursor: pointer;
+}
+
+.heading {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #999;
+    padding-bottom: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading .header {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.heading select {
+    width: 30rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.firstColumn {
+    width: 70%;
+    padding: 1rem;
+}
+
+.firstColumn .firstRow,
+.firstColumn .secondRow {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.secondColumn {
+    padding: 1rem;
+    width: 30%;
+}
+
+.firstColumn .box, .largeBox {
+    background-color: white;
+    border: 1px solid transparent;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: #ccc 5px 5px 20px 5px;
+    display: flex;
+    gap: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.firstColumn .box:hover {
+    box-shadow: none;
+    background-color: rgba(240,240,240, 0.5);
+    border: 1px solid #aaa;
+    /* box-shadow: #aaa inset 3px 3px 15px 3px; */
+}
+
+.firstColumn .box .title {
+    font-size: 0.85rem;
+    color: darkblue;
+    margin-bottom: 0.5rem;
+}
+
+.firstColumn .box p {
+    font-size: 0.75rem;
+    padding: 0.15rem 0;
+}
+
+.firstColumn .largeBox {
+    height: 41vh;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: darkblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstColumn .largeBox div {
+    font-size: 0.85rem;
+    color: black;
+    width: 100%;
+}
+
+.firstColumn .largeBox .chart {
+    width: 100%;
+    height: 100%;
+}
+
+.secondColumn .firstRow {
+    margin-bottom: 1.5rem;
+}
+
+.secondColumn .box {
+    background-color: white;
+    border: 1px solid transparent;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: #ccc 5px 5px 20px 5px;
+}
+
+.secondColumn .box .title {
+    color: darkblue;
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.secondColumn .box .table {
+    font-size: 0.85rem;
+    margin-top: 1.5rem;
+}
+
+.secondColumn .box .table th {
+    background-color: #ccc;
+    padding: 0.4rem 0;
+    border: 2px white solid;
+}
+
+.secondColumn .box .tableData td {
+    padding: 0.5rem 0;
+}
+
+.secondColumn .box .tableData .statusOnTime,
+.secondColumn .box .tableData .statusSuccess {
+    background-color: green;
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
+    color: white
+}
+
+.secondColumn .box .tableData .statusNoTime,
+.secondColumn .box .tableData .statusWarning {
+    background-color: yellowgreen;
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
+    color: white;
+}
+
+.secondColumn .box .tableData .statusNoThing,
+.secondColumn .box .tableData .statusCritical {
+    background-color: lightcoral;
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
+    color: white;
+}
+
+.secondColumn .box .tableData .assess {
+    color: blue;
+}
+
+.dotLink {
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.backbtn {
+    padding: 0.5rem 1.5rem;
+    background: red;
+    border-radius: 1rem;
+    color: white;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+
+  .backbtn:hover {
+    background: darkred;
+  }

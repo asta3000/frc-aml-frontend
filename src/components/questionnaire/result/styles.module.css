@@ -1,0 +1,62 @@
+.title {
+    margin: 3rem 0 2rem 0;
+    padding-bottom: 0.8rem;
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 1px solid #333;
+}
+
+.table1 {
+    margin: 0 auto;
+    font-size: 0.85rem;
+}
+
+.table2 {
+    margin: 3rem auto;
+    border-collapse: collapse;
+    vertical-align: middle;
+    font-size: 0.85rem;
+}
+
+.table2 thead {
+    height: 3rem;
+    font-weight: bolder;
+}
+
+.table2 tbody tr {
+    height: 2.3rem;
+    line-height: 1.3rem;
+}
+
+.table2 tbody tr .leftintent {
+    padding-left: 2rem;
+}
+
+.table2 tbody .mainclass {
+    text-align: center;
+    background-color:lemonchiffon;
+    font-weight: 700;
+    font-size: 0.85rem
+}
+
+.question {
+    text-align: left;
+}
+
+.answer {
+    text-align: left;
+}
+
+.backBtn {
+    padding: 0.5rem 1rem;
+    background: red;
+    color: white;
+    cursor: pointer;
+    margin: 2rem auto;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.backBtn:hover {
+    background: darkred;
+}

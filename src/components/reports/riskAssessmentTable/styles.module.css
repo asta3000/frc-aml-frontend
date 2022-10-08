@@ -1,0 +1,94 @@
+.container {
+    width: 100%;
+    padding: 1rem;
+}
+
+.heading {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #999;
+    padding-bottom: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading .header {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.heading .duration {
+    font-size: 0.9rem;
+    margin-right: 2rem;
+}
+
+.heading input {
+    border: 1px solid gray;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+.noDuration {
+    font-size: 0.85rem;
+    color: red;
+}
+
+.backbtn {
+    padding: 0.5rem 1.5rem;
+    background: red;
+    border-radius: 1rem;
+    color: white;
+    font-size: 0.8rem;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+
+.backbtn:hover {
+    background: darkred;
+}
+
+.table {
+    font-size: 0.8rem;
+    border-collapse: collapse;
+    border: 1px solid #29b6f6;
+}
+
+.table thead tr {
+    height: 3rem;
+    background-color: #29b6f6;
+    color: white;
+    border: 1px solid white
+}
+
+.table tbody tr {
+    height: 2rem;
+}
+
+.table .tableData td {
+    padding: 0.6rem;
+}
+
+.table .tableData td .paragraph {
+    margin-top: 0.2rem
+}
+
+.downloadXLS {
+    padding: 0.5rem 1rem;
+    background: gray;
+    border-radius: 1rem;
+    border: none;
+    margin: 2rem 0.5rem 1rem 0; 
+    color: white;
+    cursor: pointer;
+}
+
+.downloadXLS:hover {
+    background: green;
+}
+
+.searchInput {
+    border: 1px solid gray;
+    width: 30rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+}

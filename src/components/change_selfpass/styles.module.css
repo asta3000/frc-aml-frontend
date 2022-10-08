@@ -1,0 +1,51 @@
+.changepassword {
+    padding: 3rem;
+    font-weight: 200;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+
+.changepassword .container {
+    padding: 2rem;
+}
+
+.changepassword .container .label {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.changepassword .container .inputField,
+.changepassword .container .inputButton {
+    display: block;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0 1rem 0;
+    border-radius: 2rem;
+    border: 1px solid #999;
+    
+}
+
+.changepassword .container .inputField {
+    background-color: transparent;
+    color: black;
+    width: 25%;
+}
+
+.changepassword .container .inputButton {
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.changepassword .container .error,
+.changepassword .container .success {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}

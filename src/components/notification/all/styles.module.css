@@ -1,0 +1,27 @@
+.title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+  }
+
+.table {
+    font-size: 0.8rem;
+}
+
+.tableHead {
+    height: 40px;
+    background: #ddd;
+    font-weight: 700;
+}
+
+.tableBody {
+    height: 40px;
+}
+
+.moreBtn {
+    padding: 0.3rem 0.8rem;
+    background: blue;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    color: white;
+}

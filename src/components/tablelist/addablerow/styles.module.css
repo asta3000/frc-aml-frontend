@@ -1,0 +1,44 @@
+.tabledata {
+  height: 2.5rem;
+  text-align: center;
+}
+
+.tabledata input,
+.tabledata select {
+  padding: 0.2rem;
+  width: 95%;
+}
+
+.button {
+  cursor: pointer;
+  margin: 0.3rem auto;
+}
+
+.button:hover {
+  color: brown;
+}
+
+.tabledata .btnSave,
+.tabledata .btnCancel {
+  cursor: pointer;
+  padding: 0.3rem 1rem;
+  margin-left: 0.5rem;
+  color: white;
+  border-radius: 0.3rem;
+}
+
+.tabledata .btnSave {
+  background: blue;
+}
+
+.tabledata .btnCancel {
+  background: red;
+}
+
+.tabledata .btnSave:hover {
+  background: darkblue;
+}
+
+.tabledata .btnCancel:hover {
+  background: darkred;
+}

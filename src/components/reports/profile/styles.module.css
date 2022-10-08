@@ -1,0 +1,35 @@
+.title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+
+.formP {
+    font-size: 0.9rem;
+    margin-right: 1rem;
+}
+
+.formP .formSelect {
+    margin-left: 1rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.assessment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.assessment .assessment1 {
+    width: 49%;
+}
+
+.assessment .assessment2 {
+    width: 49%;
+}
+
+.assess {
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+}

@@ -1,0 +1,11 @@
+.body {
+    position: fixed;
+    left: 17%;
+    /* Sidebar-н өргөний хэмжээтэй тэнцүү байна. */
+    top: 0;
+    height: 100%;
+    width: 83%; 
+    /* Sidebar 17%-н өргөнтэй. Түүнийг хасаад 83% гарсан. */
+    display: flex;
+    flex-direction: column;
+}
